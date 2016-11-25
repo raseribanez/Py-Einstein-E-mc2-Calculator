@@ -1,10 +1,13 @@
 # Einsteins Famous Equation (E = mc ^2) or (E = mc squared)
 # Ben Woodfield - proving the Power of Python
 # Solve one of the greatest physics equations - With a nice GUI
-# Tkinter version
+# Tkinter version - NO additional python modules needed to run
 
-import Tkinter as tk
-from Tkinter import * 
+# Python 2.7.11 used to write this app
+# To run on Python 3....just change (Tkinter) to (tkinter)
+
+import Tkinter as tk # Edit here for Py3
+from Tkinter import * # edit here for py3
 
 class MainApplication(tk.Frame):
     def __init__(self, parent, *args, **kwargs):
